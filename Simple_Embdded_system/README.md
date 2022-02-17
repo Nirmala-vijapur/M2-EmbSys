@@ -34,6 +34,17 @@ Four Lamps (acting as Electrical Lines) are connected to P0.0 to P0.3 through th
 ## power supply :
 takes the AC from the wall outlet, converts it to unregulated DC, and reduces the voltage using an input power transformer, typically stepping it down to the voltage required by the load
 
+## Keypad
 used to take inputs in the form of numbers and albhabets, and feed the same into system for further processing
+
+## Crystal 
+ This crystal oscillator is used to generate clock pulses required for the synchronization of all the internal operations.
+ Oscillators provide the basic timing and control for a microcontroller and its peripherals. Commonly used oscillators are of crystal because of its well known stability and durability. It produces stable output for prolonged time.
+ 
+ ## Relay
+Relays are the switches which aim at closing and opening the circuits electronically as well as electromechanically. It controls the opening and closing of the circuit contacts of an electronic circuit.
+
+## LCD 
+LCDs can display output from the µC such as time, date, and temperature.
 
 
