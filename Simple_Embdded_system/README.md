@@ -28,3 +28,12 @@ Four Lamps (acting as Electrical Lines) are connected to P0.0 to P0.3 through th
 10. Now, if the password is correct, then circuit breaker changes its state (i.e. if it is already ON, now it becomes OFF and if it is already OFF, now it becomes ON) and displays line (or load) status on LCD.
 11. If the password is wrong, then the LCD displays “wrong password”.
 12. After some time, the microcontroller asks to enter password by displaying “enter password”.
+
+
+## Functions of the components used
+## power supply :
+takes the AC from the wall outlet, converts it to unregulated DC, and reduces the voltage using an input power transformer, typically stepping it down to the voltage required by the load
+
+used to take inputs in the form of numbers and albhabets, and feed the same into system for further processing
+
+
