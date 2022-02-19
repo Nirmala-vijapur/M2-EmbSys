@@ -32,18 +32,16 @@ Keypad is connected to PORT2 of the microcontroller. The four Row Pins of the Ke
 Four Lamps (acting as Electrical Lines) are connected to P0.0 to P0.3 through the 4 – Channel Relay Module. These are used to indicate circuit breaker state (Light ON – Line Active and Light OFF – Line Not Active).
 
 ## System Design
-1. Write the program to the Password based Circuit Breaker in Keil software and create .hex file.
-2. Burn program to the controller with help of 8051 Programming Board and Willar Software.
-3. Now give the connections as per the circuit diagram.
-4. While giving the connections, make sure that there is no common connection between AC and DC supplies
-5. Use 5V power supply circuit to provide regulated 5V DC to the controller.
-6.  Switch on the both AC and DC supplies.
-7. Now relay output pins gets 230V. So, do not touch the load connected pins.
-8. LCD displays “enter password”.
-9. Enter the password with help of keypad.
-10. Now, if the password is correct, then circuit breaker changes its state (i.e. if it is already ON, now it becomes OFF and if it is already OFF, now it becomes ON) and displays line (or load) status on LCD.
-11. If the password is wrong, then the LCD displays “wrong password”.
-12. After some time, the microcontroller asks to enter password by displaying “enter password”.
+1. Now give the connections as per the circuit diagram.
+2. While giving the connections, make sure that there is no common connection between AC and DC supplies
+3. Use 5V power supply circuit to provide regulated 5V DC to the controller.
+4.  Switch on the both AC and DC supplies.
+5. Now relay output pins gets 230V. So, do not touch the load connected pins.
+6. LCD displays “enter password”.
+7. Enter the password with help of keypad.
+8. Now, if the password is correct, then circuit breaker changes its state (i.e. if it is already ON, now it becomes OFF and if it is already OFF, now it becomes ON) and displays line (or load) status on LCD.
+9. If the password is wrong, then the LCD displays “wrong password”.
+10. After some time, the microcontroller asks to enter password by displaying “enter password”.
 
 
 ## Functions of the components used
