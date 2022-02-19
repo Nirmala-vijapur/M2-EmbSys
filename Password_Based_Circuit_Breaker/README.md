@@ -5,7 +5,7 @@ Nowadays, electrical accidents to the line man are increasing, while repairing t
 
  Now, if there is any fault in electrical line, then the line man will switch off the power supply to the line by entering password and comfortably repair the electrical line, and after coming to the substation line man switch on the supply to the particular line by entering the password. Separate passwords are assigned for each electrical lines.
 
-![Screenshot (92)](https://user-images.githubusercontent.com/98865009/154540153-60ccc338-435c-4841-a801-71f00c3046f9.png)
+![Screenshot (99)](https://user-images.githubusercontent.com/98865009/154733580-6f502432-d3b9-4bf7-8486-56e9c65b5752.png)
 
 
 The above circuit consists of 8051 series controller (AT89C52), 4×4 Matrix Keypad, 16 x 2 LCD Display, 4 – Channel Relay Module and Four Loads. LCD data pins are connected to PORT1 and control pins RS, RW and EN pins are connected to P3.0, GND and P3.1 respectively. Here, the LCD is used to display the information related to the load.
