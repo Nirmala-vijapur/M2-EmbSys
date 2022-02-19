@@ -28,5 +28,8 @@ This system uses an 8051 microcontroller to illustrate a password-based door loc
 ## Block Diagram
 
 
+![Screenshot (102)](https://user-images.githubusercontent.com/98865009/154790162-4de45898-44e7-429e-802d-e36ba8880e31.png)
+
+
 
 
