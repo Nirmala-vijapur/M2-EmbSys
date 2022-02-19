@@ -23,6 +23,8 @@ Nowadays, electrical accidents to the line man are increasing, while repairing t
 
 
 
+
+
 ## Block Diagram 
 
 ![Screenshot (99)](https://user-images.githubusercontent.com/98865009/154733580-6f502432-d3b9-4bf7-8486-56e9c65b5752.png)
