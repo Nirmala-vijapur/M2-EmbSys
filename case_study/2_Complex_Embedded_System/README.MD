@@ -4,6 +4,14 @@ Nowadays, electrical accidents to the line man are increasing, while repairing t
 
 
  Now, if there is any fault in electrical line, then the line man will switch off the power supply to the line by entering password and comfortably repair the electrical line, and after coming to the substation line man switch on the supply to the particular line by entering the password. Separate passwords are assigned for each electrical lines.
+ 
+ 
+## Requirements 
+## High Level Requirements
+|ID|DESCRIPTION                               |
+|:-|:-----------------------------------------|
+|HLR1|Line man can switch off the power supply|
+|HLR2|line man can switch on the power supply |
 
 ![Screenshot (99)](https://user-images.githubusercontent.com/98865009/154733580-6f502432-d3b9-4bf7-8486-56e9c65b5752.png)
 
