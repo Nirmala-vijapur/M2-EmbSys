@@ -31,9 +31,12 @@ This system uses an 8051 microcontroller to illustrate a password-based door loc
 
 ## Circuit operation
 When the circuit is turned on, the microcontroller sends orders to the LCD, which causes the LCD to show "enter password." Now we must use the keypad to input the password. When the password is input, the LCD shows 5 stars, indicating that the controller has successfully read the password.
+
 The controller now compares the entered password to the password that was previously set. If the password is correct, the microcontroller sets P0.0 to HIGH and P0.1 to LOW, allowing the motor driver to receive input signals for forward motion.
 
 As a result, to open the door, the Door Motor rotates in a forward motion. The microprocessor makes P0.0 LOW and P0.1 HIGH after a 10-second delay, allowing the motor driver to receive input signals for reverse motion. As a result, the Door motor closes the door by rotating in the opposite direction.
+
+
 If the password is not entered correctly, the microcontroller keeps both P0.0 and P0.1 low. As a result, the door motor remains stationary, allowing the door to remain closed.
 
 
