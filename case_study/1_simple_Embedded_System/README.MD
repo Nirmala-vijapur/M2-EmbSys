@@ -28,7 +28,6 @@ This system uses an 8051 microcontroller to illustrate a password-based door loc
 ## Block Diagram
 ![Screenshot (102)](https://user-images.githubusercontent.com/98865009/154790162-4de45898-44e7-429e-802d-e36ba8880e31.png)
 
-
 ## System Design
 Password based door lock system using 8051 microcontroller circuit design uses five major components  a Microcontroller, an L293D Motor Driver, a DC Motor, a 4×4 Matrix Keypad and a 16×2 LCD. Here, an AT89C52 Microcontroller is used and it is an 8-bit controller. This controller requires a supply voltage of +5V DC. In order to provide regulated 5V DC voltage to the controller We can use 9V DC battery or 12V, 1A adaptor as a power source.
 When the circuit is turned on, the microcontroller sends orders to the LCD, which causes the LCD to show "enter password." Now we must use the keypad to input the password. When the password is input, the LCD shows 5 stars, indicating that the controller has successfully read the password.
