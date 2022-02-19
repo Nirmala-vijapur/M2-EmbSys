@@ -1,4 +1,4 @@
-## Password Based Circuit Breaker
+# Password Based Circuit Breaker
 
 Nowadays, electrical accidents to the line man are increasing, while repairing the electrical lines due to the lack of communication between the electrical substation and maintenance staff. This project gives a solution to this problem to ensure line man safety. In this proposed system, the control (ON/OFF) of the electrical lines lies with line man. This project is arranged in such a way that maintenance staff or line man has to enter the password to ON/OFF the electrical line.
 
@@ -45,5 +45,3 @@ Relays are the switches which aim at closing and opening the circuits electronic
 
 ## LCD 
 LCDs can display output from the µC such as time, date, and temperature.
-
-
