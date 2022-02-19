@@ -38,4 +38,9 @@ As a result, to open the door, the Door Motor rotates in a forward motion. The m
 
 If the password is not entered correctly, the microcontroller keeps both P0.0 and P0.1 low. As a result, the door motor remains stationary, allowing the door to remain closed.
 
-
+## Functions of the components used
+* AT89C52 Microcontroller
+* L293D Motor Driver
+* DC Motor
+* 4×4 Matrix Keypad
+* 16×2 LCD
