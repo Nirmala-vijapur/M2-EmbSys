@@ -39,14 +39,14 @@ As a result, to open the door, the Door Motor rotates in a forward motion. The m
 If the password is not entered correctly, the microcontroller keeps both P0.0 and P0.1 low. As a result, the door motor remains stationary, allowing the door to remain closed.
 
 ## Functions of the components used
-* AT89C52 Microcontroller
+* AT89C52 Microcontroller: 
 The Atmel AT89C52 is an 8-bit microcontroller from the 8051 series. The AT89C52 contains 256 bytes of RAM and 8KB of Flash programmable and erasable read only memory (PEROM). The AT89C52 has a 1000 Write/Erase cycle endurance rating, which implies it can be wiped and programmed 1000 times.
 
-* L293D Motor Driver
+* L293D Motor Driver:
 Electrical energy is converted into mechanical energy by motors. This motor is used to open and close the door. The motor must rotate, and we use the L293D driver to accomplish this. This driver helps in the control of the motor's speed and direction.
 
-* 4×4 Matrix Keypad
+* 4×4 Matrix Keypad:
 A keypad is a collection of buttons with various symbols, numerals, and alphabets arranged in a 4x4 grid. Push button keypads, membrane switch keypads, resistive touch keypads, capacitive touch keypads, and other types of keypads are available on the market. We need to type passwords in our project, so the push button keypad will be chosen because of its high stiffness and inexpensive cost compared to other keypads.
 
-* 16×2 LCD
+* 16×2 LCD:
 A liquid crystal display, sometimes known as an LCD, is a great way for a microcontroller to show visual data. LCDs may display microcontroller output such as time, date, and temperature, etc. they can also be used to display memory contents and aid in code debugging.
