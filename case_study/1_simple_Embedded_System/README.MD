@@ -25,4 +25,8 @@ This system uses an 8051 microcontroller to illustrate a password-based door loc
 |LLR6|If the password is wrong then display wrong pasword on Lcd|
 |LLR7|After some delay again ask to enter password              |
 
+## Block Diagram
+
+![Screenshot (97)](https://user-images.githubusercontent.com/98865009/154789682-341c069e-6666-4f95-bc5d-42611f932875.png)
+
 
