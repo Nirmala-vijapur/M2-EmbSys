@@ -13,6 +13,15 @@ Nowadays, electrical accidents to the line man are increasing, while repairing t
 |HLR1|Line man can switch off the power supply|
 |HLR2|line man can switch on the power supply |
 
+## Low Level Requirements
+|ID  |DESCRIPTION                                                                                   |
+|:---|:---------------------------------------------------------------------------------------------|
+|LLR1|user needs to enter the password                                                              |
+|LLR2|Enter the password with help of keypad                                                        |
+|LLR3|If the password is correct then circuit breaker changes its state & display line status on LCD|
+|LLR4|If the password is wrong then the LCD display wrong password                                  |
+
+
 ![Screenshot (99)](https://user-images.githubusercontent.com/98865009/154733580-6f502432-d3b9-4bf7-8486-56e9c65b5752.png)
 
 
