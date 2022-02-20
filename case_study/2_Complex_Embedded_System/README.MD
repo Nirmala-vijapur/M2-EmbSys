@@ -76,3 +76,15 @@ Relays are the switches which aim at closing and opening the circuits electronic
 
 ## LCD 
 LCDs can display output from the µC such as time, date, and temperature.
+
+
+## Advantages
+* Avoids electrical accidents to line man
+* Project is simple and easy
+* Uses commonly available components
+
+## Applications
+* Used in electrical substations to ensure line man safety
+* This system is used in buildings and houses
+* Used in hotels and shopping malls to save the power. 
+* Can also be used as Password based electrical appliance control or Password based Load Control system.
