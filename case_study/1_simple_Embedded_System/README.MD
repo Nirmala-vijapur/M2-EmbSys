@@ -45,7 +45,6 @@ When the circuit is turned on, the microcontroller sends orders to the LCD, whic
 ## Hardware Requirements
 * 8051 Microcontroller
 * 8051 Development Board
-* 8051 Programmer
 * 4×4 Matrix Keypad
 * 16×2 LCD
 * L293D Motor Driver Board
@@ -53,13 +52,6 @@ When the circuit is turned on, the microcontroller sends orders to the LCD, whic
 * 10KΩ Potentiometer
 * Connecting wires
 * Power Supply
-* If 8051 Development Board is not used, then the following components are needed.
-* 11.0592 MHz Quartz Crystal
-* 2 x 33pF Ceramic Capacitors
-* 2 x 10 KΩ Resistor (1/4 Watt)
-* 10 µF Capacitor (Polarized)
-* Push Button
-* 2 x 1 KΩ Resistors (for pull up)
 ## Software Requirements 
 * Keil µVision IDE
 * Proteus (for circuit diagram and simulation)
