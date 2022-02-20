@@ -48,6 +48,17 @@ Four Lamps (acting as Electrical Lines) are connected to P0.0 to P0.3 through th
 9. If the password is wrong, then the LCD displays “wrong password”.
 10. After some time, the microcontroller asks to enter password by displaying “enter password”.
 
+## Components Required
+* 8051 Microcontroller (AT89C52)
+* 8051 Development Board
+* 4 x 4 Matrix Keypad
+* 4 – Channel Relay Module
+* 16 x 2 LCD Display
+* 10KΩ Potentiometer
+* 4 Loads (Light Bulbs)
+* Power Supply
+* Connecting Wires
+
 
 ## Functions of the components used
 ## Power supply :
