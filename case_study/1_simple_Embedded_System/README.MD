@@ -72,3 +72,16 @@ A keypad is a collection of buttons with various symbols, numerals, and alphabet
 * 16×2 LCD:
 
 A liquid crystal display, sometimes known as an LCD, is a great way for a microcontroller to show visual data. LCDs may display microcontroller output such as time, date, and temperature, etc. they can also be used to display memory contents and aid in code debugging.
+
+
+## Advantages of Password Based Door Lock System
+* This project provides security
+* Power consumption is less
+* Used commonly available components
+* Project is simple and easy
+
+
+## Applications of Password Based Door Lock System
+* This simple circuit can be used at residential places to ensure better safety.
+* It can be used at organizations to ensure authorized access to highly secured places.
+
