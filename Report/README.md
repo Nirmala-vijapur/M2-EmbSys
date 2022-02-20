@@ -81,6 +81,10 @@ A potentiometer is a three-terminal resistor with a sliding or rotating contact 
 LCDs can display output from the µC such as time, date, and temperature.
 
 
+## V model 
+![Screenshot (104)](https://user-images.githubusercontent.com/98865009/154855928-85420628-5a26-4f3b-9de8-3a3b2ff64d0d.png)
+
+
 ## Advantages
 * Avoids electrical accidents to line man
 * Project is simple and easy
