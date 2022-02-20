@@ -74,6 +74,9 @@ used to take inputs in the form of numbers and albhabets, and feed the same into
  ## Relay
 Relays are the switches which aim at closing and opening the circuits electronically as well as electromechanically. It controls the opening and closing of the circuit contacts of an electronic circuit.
 
+## potentiometer 
+A potentiometer is a three-terminal resistor with a sliding or rotating contact that forms an adjustable voltage divider. If only two terminals are used, one end and the wiper, it acts as a variable resistor or rheostat.
+
 ## LCD 
 LCDs can display output from the µC such as time, date, and temperature.
 
