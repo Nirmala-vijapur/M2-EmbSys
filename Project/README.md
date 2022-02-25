@@ -22,7 +22,7 @@ One way is to switch on the fan spontaneously.switches the fan when it detects t
 ## Architecture / Block Diagrams 
 ### Structure Diagram 
 
-![Screenshot (107)](https://user-images.githubusercontent.com/98865009/155678688-70d7e31c-2a85-4fc4-b93f-5cfc55d19191.png)
+![Screenshot (118)](https://user-images.githubusercontent.com/98865009/155737638-a534fa1d-e870-4313-9951-3ba12638c45e.png)
 
 
 
@@ -38,11 +38,13 @@ One way is to switch on the fan spontaneously.switches the fan when it detects t
 
 ## Components Required
 ## Hardware Requirements 
-* ARDUINO
+* Arduino UNO
 * LM35 Temperature sensor 
-* POWER MOSFET 
+* Potentiometer 
 *  DC Fan
-*  BUzzer or LED 
+*  Relay
+*  LED 
+*  Transistor
 *  100R resistor 
 *  4.7k Resistor 
 *  1k Resistor
