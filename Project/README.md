@@ -19,10 +19,14 @@ One way is to switch on the fan spontaneously.switches the fan when it detects t
 |LLR1|Fan is ON when the temperature is higher then the limit|
 |LLR1|Buzzer or LED ON when the temperature is higher then the limit|
 
-## Block Diagram
+## Architecture / Block Diagrams 
+### Structure Diagram 
+
 ![Screenshot (107)](https://user-images.githubusercontent.com/98865009/155678688-70d7e31c-2a85-4fc4-b93f-5cfc55d19191.png)
 
-![Screenshot (112)](https://user-images.githubusercontent.com/98865009/155703603-52ce701a-83b3-4923-9ac7-5860f5b1a8f3.png)
+![Screenshot (114)](https://user-images.githubusercontent.com/98865009/155703826-b39094c9-c222-4778-accc-5769b3c528b6.png)
+
+### Behavior Diagram 
 
 ![Screenshot (114)](https://user-images.githubusercontent.com/98865009/155703826-b39094c9-c222-4778-accc-5769b3c528b6.png)
 
