@@ -24,11 +24,15 @@ One way is to switch on the fan spontaneously.switches the fan when it detects t
 
 ![Screenshot (107)](https://user-images.githubusercontent.com/98865009/155678688-70d7e31c-2a85-4fc4-b93f-5cfc55d19191.png)
 
+
+
 ![Screenshot (114)](https://user-images.githubusercontent.com/98865009/155703826-b39094c9-c222-4778-accc-5769b3c528b6.png)
 
 ### Behavior Diagram 
 
-![Screenshot (114)](https://user-images.githubusercontent.com/98865009/155703826-b39094c9-c222-4778-accc-5769b3c528b6.png)
+![Screenshot (112)](https://user-images.githubusercontent.com/98865009/155706056-6b56cf4f-401e-4e4c-8a96-388e0980cc1c.png)
+
+
 
 ![Screenshot (110)](https://user-images.githubusercontent.com/98865009/155692430-6b594a41-1f56-4c49-a93a-4bb63ed3ce05.png)
 
