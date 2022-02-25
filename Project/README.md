@@ -17,6 +17,24 @@ This project Temperature Based Fan Speed Control s can be done by using Arduino 
 |LLR1|Fan is ON when the temperature is higher then the limit|
 |LLR1|Buzzer or LED ON when the temperature is higher then the limit|
 
+## SWOT 
+### Strength 
+
+* it is very economical and easy to handel by the user
+* speed varies automatically, so that it controls the speed without using it manually 
+* it is help full to disabled people 
+* it is very easy to install in offices, houses etc
+* save energy by showing down its speed in low temperature 
+
+### weakness 
+
+* Arduino is the heart of the circuit, if controller is damaged the whole system will be interrupted.
+* Speed control is independent of individual preference.
+
+
+
+ 
+
 ## Architecture / Block Diagrams 
 ### Structure Diagram 
 
