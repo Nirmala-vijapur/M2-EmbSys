@@ -6,11 +6,11 @@ One way is to switch on the fan spontaneously.switches the fan when it detects t
 
 # Requirements 
 ## High Level Requirements
-|ID  |DESCRIPTION|
-|:---|:----------|
-|HLR1|Fan ON     | 
-|HLR1|Fan OFF    |
-|HLR1|BUZZER ON  |
+|ID  |DESCRIPTION        |
+|:---|:------------------|
+|HLR1|Fan ON             | 
+|HLR1|Fan OFF            |
+|HLR1|BUZZER or LED  ON  |
 
 ## low Level Requirements 
 |ID  |DESCRIPTION                                            |
@@ -28,7 +28,7 @@ One way is to switch on the fan spontaneously.switches the fan when it detects t
 * LM35 Temperature sensor 
 * POWER MOSFET 
 *  DC Fan
-*  BUzzer
+*  BUzzer or LED 
 *  100R resistor 
 *  4.7k Resistor 
 *  1k Resistor
