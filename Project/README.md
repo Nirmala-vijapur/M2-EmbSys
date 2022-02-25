@@ -24,7 +24,8 @@ One way is to switch on the fan spontaneously.switches the fan when it detects t
 
 ![Screenshot (112)](https://user-images.githubusercontent.com/98865009/155703603-52ce701a-83b3-4923-9ac7-5860f5b1a8f3.png)
 
-## Flow chat
+![Screenshot (114)](https://user-images.githubusercontent.com/98865009/155703826-b39094c9-c222-4778-accc-5769b3c528b6.png)
+
 ![Screenshot (110)](https://user-images.githubusercontent.com/98865009/155692430-6b594a41-1f56-4c49-a93a-4bb63ed3ce05.png)
 
 ## Components Required
