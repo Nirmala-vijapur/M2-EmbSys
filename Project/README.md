@@ -22,4 +22,25 @@ One way is to switch on the fan spontaneously.switches the fan when it detects t
 ## Block Diagram
 ![Screenshot (107)](https://user-images.githubusercontent.com/98865009/155678688-70d7e31c-2a85-4fc4-b93f-5cfc55d19191.png)
 
+## Components Required
+## Hardware Requirements 
+* ARDUINO
+* LM35 Temperature sensor 
+* POWER MOSFET 
+*  DC Fan
+*  BUzzer
+*  100R resistor 
+*  4.7k Resistor 
+*  1k Resistor
+*  10k Resistor 
+*  10uf capacitor
+*  male to male jumper wires
+*  Battery 9v
+*  Battery clip 
+
+## software requirements
+* Simulide
+* Arduino
+
+
 
