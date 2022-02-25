@@ -60,18 +60,18 @@ This project Temperature Based Fan Speed Control s can be done by using Arduino 
 ### TEMPERATURE SENSOR LM35
 Temperature sensor senses the room temperature. This electronic device converts the data that sensed in the surrounding into the electronic data for recording purpose. There are many different types of temperature sensors.Here in this project we are using LM 35 temperature sensor. The LM35 temperature sensor is graded to work from -55° Centigrade to 150° Centigrade with a udeviating scale factor of +10mv/° C. It is a tiny and low cost IC which can be used to measure temperature anywhere in the surrounding between -55°C to 150°C.
 
-### WHY ARDUINO FOR THIS DC FAN CONTROLLER PROJECT?
+### ARDUINO 
 Arduino UNO is a development board which contains microcontroller in the board itself. It is an open-source software. In the electronics platform, arduinois easy to use hardware and software. The Arduino boards can read inputs so that they can understand and give as some of the outcomes like light on a sensor, a finger on a button, activating a motor, turning on an LED, publishing something manually in online etc,. that are all given as output to us. The most of the applications on everyday life, ardunio is a part of the application. The reason is that the Arduino follows the instruction correctly that fed by us. How can we send the instructions to the Arduino board? The instructions can be fed
 to the Arduino board by these tools, one is the Arduino programming language (based on Wiring), and the other one isArduino Software (IDE), based on Processing.
 
-### WHAT IS THE ROLE OF POTENTIOMETER?
+### POTENTIOMETER
 The Potentiometer is an electric device that used to measure the Electro Motive Force of a given battery, the internal resistance of a cell. And also it is used to compare the EMFs of different cells. It can also use as a variable resistor in most of the applications.
 
 
-### WHY TRANSISTOR IS USED?
+### TRANSISTOR
 A transistor is a semiconductor device used to amplify or switch electronic signals and electrical power. It is composed of semiconductor material usually with at least three terminals for connection to an external circuit.
 
-### WHY RELAY IS USED?
+### RELAY
 It is a switch which controls (open and close) circuits electromechanically. The main operation of this device is to break contact with the help of a signal without any human involvement in order to switch it ON or OFF. It is mainly used to control a high powered circuit using a low power signal.
 
 
