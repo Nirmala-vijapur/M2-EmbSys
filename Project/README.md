@@ -20,6 +20,6 @@ One way is to switch on the fan spontaneously.switches the fan when it detects t
 |LLR1|Buzzer ON when the temperature is higher then the limit|
 
 ## Block Diagram
-
+![Screenshot (107)](https://user-images.githubusercontent.com/98865009/155678688-70d7e31c-2a85-4fc4-b93f-5cfc55d19191.png)
 
 
