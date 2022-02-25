@@ -49,6 +49,8 @@ LM35 has 3 pins
 1. Vin-- this pin is connected to dc power supply between 4 to 20 v.
 2. Vout-- this pin gives output in the form of voltage.
 3. GND-- this pin is connected to gnd terminal of circuit.
+
+
 LM35, when connected to power supply senses the temperature of surroundings and sends equivalent voltage in accordance with per degree rise in temperature through its output pin. LM35 can sense any temp. between -50 degree to +150 degree Celsius and increases output by 10 millivolts with 1 degree rise in temperature. Thus maximum voltage it can give as output is 1.5 volts.
 
 ## WHY ARDUINO FOR THIS DC FAN CONTROLLER PROJECT?
