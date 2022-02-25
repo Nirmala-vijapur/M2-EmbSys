@@ -8,7 +8,7 @@ This project Temperature Based Fan Speed Control s can be done by using Arduino 
 |:---|:------------------|
 |HLR1|Fan ON             | 
 |HLR1|Fan OFF            |
-|HLR1|BUZZER or LED  ON  |
+|HLR1|LED  ON            |
 
 ## low Level Requirements 
 |ID  |DESCRIPTION                                            |
