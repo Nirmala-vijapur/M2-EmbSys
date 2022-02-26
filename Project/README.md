@@ -17,7 +17,7 @@ This project Temperature Based Fan Speed Control s can be done by using Arduino 
 |LLR1|Fan is ON when the temperature is higher then the limit|
 |LLR1|Buzzer or LED ON when the temperature is higher then the limit|
 
-## SWOT 
+# SWOT 
 ### Strength 
 
 * it is very economical and easy to handel by the user
@@ -35,8 +35,8 @@ This project Temperature Based Fan Speed Control s can be done by using Arduino 
 
  
 
-## Architecture / Block Diagrams 
-### Structure Diagram 
+# Architecture / Block Diagrams 
+## Structure Diagram 
 ### High Level 
 
 ![Screenshot (118)](https://user-images.githubusercontent.com/98865009/155737638-a534fa1d-e870-4313-9951-3ba12638c45e.png)
@@ -45,7 +45,7 @@ This project Temperature Based Fan Speed Control s can be done by using Arduino 
 
 ![Screenshot (114)](https://user-images.githubusercontent.com/98865009/155703826-b39094c9-c222-4778-accc-5769b3c528b6.png)
 
-### Behavior Diagram 
+## Behavior Diagram 
 ### High Level 
 ![Screenshot (112)](https://user-images.githubusercontent.com/98865009/155706056-6b56cf4f-401e-4e4c-8a96-388e0980cc1c.png)
 
@@ -53,7 +53,7 @@ This project Temperature Based Fan Speed Control s can be done by using Arduino 
 
 ![Screenshot (110)](https://user-images.githubusercontent.com/98865009/155692430-6b594a41-1f56-4c49-a93a-4bb63ed3ce05.png)
 
-## Components Required
+# Components Required
 ## Hardware Requirements 
 * Arduino UNO
 * LM35 Temperature sensor 
@@ -75,22 +75,22 @@ This project Temperature Based Fan Speed Control s can be done by using Arduino 
 * Simulide
 * Arduino
 
-## Functions of the components used 
-### TEMPERATURE SENSOR LM35
+# Functions of the components used 
+## TEMPERATURE SENSOR LM35
 Temperature sensor senses the room temperature. This electronic device converts the data that sensed in the surrounding into the electronic data for recording purpose. There are many different types of temperature sensors.Here in this project we are using LM 35 temperature sensor. The LM35 temperature sensor is graded to work from -55° Centigrade to 150° Centigrade with a udeviating scale factor of +10mv/° C. It is a tiny and low cost IC which can be used to measure temperature anywhere in the surrounding between -55°C to 150°C.
 
-### ARDUINO 
+## ARDUINO 
 Arduino UNO is a development board which contains microcontroller in the board itself. It is an open-source software. In the electronics platform, arduinois easy to use hardware and software. The Arduino boards can read inputs so that they can understand and give as some of the outcomes like light on a sensor, a finger on a button, activating a motor, turning on an LED, publishing something manually in online etc,. that are all given as output to us. The most of the applications on everyday life, ardunio is a part of the application. The reason is that the Arduino follows the instruction correctly that fed by us. How can we send the instructions to the Arduino board? The instructions can be fed
 to the Arduino board by these tools, one is the Arduino programming language (based on Wiring), and the other one isArduino Software (IDE), based on Processing.
 
-### POTENTIOMETER
+## POTENTIOMETER
 The Potentiometer is an electric device that used to measure the Electro Motive Force of a given battery, the internal resistance of a cell. And also it is used to compare the EMFs of different cells. It can also use as a variable resistor in most of the applications.
 
 
-### TRANSISTOR
+## TRANSISTOR
 A transistor is a semiconductor device used to amplify or switch electronic signals and electrical power. It is composed of semiconductor material usually with at least three terminals for connection to an external circuit.
 
-### RELAY
+## RELAY
 It is a switch which controls (open and close) circuits electromechanically. The main operation of this device is to break contact with the help of a signal without any human involvement in order to switch it ON or OFF. It is mainly used to control a high powered circuit using a low power signal.
 
 
