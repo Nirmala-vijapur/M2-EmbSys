@@ -31,9 +31,18 @@ This project Temperature Based Fan Speed Control s can be done by using Arduino 
 * Arduino is the heart of the circuit, if controller is damaged the whole system will be interrupted.
 * Speed control is independent of individual preference.
 
+# 4w's & 1H
+## WHO
+Temperature based Fan Speed Controller can be used in both the home and Industry.
 
+## WHAT
+Temperature based Fan Speed Controller It helps in saving the energy and electricity.
 
- 
+## WHEN
+Temperature based Fan Speed Controller Prevents waste of energy when it’s not hot enough for a fan to be needed. To assist people who are disabled to adjust the fan speed automatically.
+
+## HOW
+The aim of this project is to design a temperature controlled fan using Arduino, in which the fan is automatically turned ON or OFF according to the temperature
 
 # Architecture / Block Diagrams 
 ## Structure Diagram 
