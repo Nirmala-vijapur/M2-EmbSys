@@ -1,8 +1,6 @@
-# Temperature Controlled DC Fan
+# Temperature based Fan Speed Controller
 ## Description 
-Temperature Controlled DC Fan is a system which automatically turns on a DC Fan when the ambient temperature increases above a certain limit.
-Generally, electronic devices produce more heat. So this heat should be reduced in order to protect the device. There are many ways to reduce this heat. 
-One way is to switch on the fan spontaneously.switches the fan when it detects the temperature inside the device greater than its threshold value. 
+This project Temperature Based Fan Speed Control s can be done by using Arduino board with some electronics materials. The Arduino UNO board is very popular among all electronic circuits, thus we employed Arduino UNO board for the operation of the fan speed control. In the proposed system itself said that it is designed to detect the temperature of the room and send that information to the Arduino UNO board. Then the Arduino UNO board carries out the contrast of current temperature and set temperature based on the inbuilt program of the Arduino that feed through us. The output obtained from the operation is given through the o/p port of an Arduino UNO board to the LCD display that connected with the board. This generates the PWM pulses from the board which is further given to the driver circuit to get the expected output to the fan. 
 
 # Requirements 
 ## High Level Requirements
@@ -10,7 +8,7 @@ One way is to switch on the fan spontaneously.switches the fan when it detects t
 |:---|:------------------|
 |HLR1|Fan ON             | 
 |HLR1|Fan OFF            |
-|HLR1|BUZZER or LED  ON  |
+|HLR1|LED  ON            |
 
 ## low Level Requirements 
 |ID  |DESCRIPTION                                            |
@@ -19,30 +17,60 @@ One way is to switch on the fan spontaneously.switches the fan when it detects t
 |LLR1|Fan is ON when the temperature is higher then the limit|
 |LLR1|Buzzer or LED ON when the temperature is higher then the limit|
 
-## Architecture / Block Diagrams 
-### Structure Diagram 
+# SWOT 
+### Strength 
 
-![Screenshot (107)](https://user-images.githubusercontent.com/98865009/155678688-70d7e31c-2a85-4fc4-b93f-5cfc55d19191.png)
+* it is very economical and easy to handel by the user
+* speed varies automatically, so that it controls the speed without using it manually 
+* it is help full to disabled people 
+* it is very easy to install in offices, houses etc
+* save energy by showing down its speed in low temperature 
 
+### weakness 
 
+* Arduino is the heart of the circuit, if controller is damaged the whole system will be interrupted.
+* Speed control is independent of individual preference.
+
+# 4w's & 1H
+## WHO
+Temperature based Fan Speed Controller can be used in both the home and Industry.
+
+## WHAT
+Temperature based Fan Speed Controller It helps in saving the energy and electricity.
+
+## WHEN
+Temperature based Fan Speed Controller Prevents waste of energy when it’s not hot enough for a fan to be needed. To assist people who are disabled to adjust the fan speed automatically.
+
+## HOW
+The aim of this project is to design a temperature controlled fan using Arduino, in which the fan is automatically turned ON or OFF according to the temperature
+
+# Architecture / Block Diagrams 
+## Structure Diagram 
+### High Level 
+
+![Screenshot (118)](https://user-images.githubusercontent.com/98865009/155737638-a534fa1d-e870-4313-9951-3ba12638c45e.png)
+
+### Low Level
 
 ![Screenshot (114)](https://user-images.githubusercontent.com/98865009/155703826-b39094c9-c222-4778-accc-5769b3c528b6.png)
 
-### Behavior Diagram 
-
+## Behavior Diagram 
+### High Level 
 ![Screenshot (112)](https://user-images.githubusercontent.com/98865009/155706056-6b56cf4f-401e-4e4c-8a96-388e0980cc1c.png)
 
-
+# Flow chat  
 
 ![Screenshot (110)](https://user-images.githubusercontent.com/98865009/155692430-6b594a41-1f56-4c49-a93a-4bb63ed3ce05.png)
 
-## Components Required
+# Components Required
 ## Hardware Requirements 
-* ARDUINO
+* Arduino UNO
 * LM35 Temperature sensor 
-* POWER MOSFET 
+* Potentiometer 
 *  DC Fan
-*  BUzzer or LED 
+*  Relay
+*  LED 
+*  Transistor
 *  100R resistor 
 *  4.7k Resistor 
 *  1k Resistor
@@ -56,28 +84,24 @@ One way is to switch on the fan spontaneously.switches the fan when it detects t
 * Simulide
 * Arduino
 
-## Functions of the components used 
-### TEMPERATURE SENSOR LM35
-To achieve the task mentioned above, we are going to use temp. Sensor LM35 as it is used widely and easily available.
-LM35 has 3 pins
-1. Vin-- this pin is connected to dc power supply between 4 to 20 v.
-2. Vout-- this pin gives output in the form of voltage.
-3. GND-- this pin is connected to gnd terminal of circuit.
+# Functions of the components used 
+## TEMPERATURE SENSOR LM35
+Temperature sensor senses the room temperature. This electronic device converts the data that sensed in the surrounding into the electronic data for recording purpose. There are many different types of temperature sensors.Here in this project we are using LM 35 temperature sensor. The LM35 temperature sensor is graded to work from -55° Centigrade to 150° Centigrade with a udeviating scale factor of +10mv/° C. It is a tiny and low cost IC which can be used to measure temperature anywhere in the surrounding between -55°C to 150°C.
+
+## ARDUINO 
+Arduino UNO is a development board which contains microcontroller in the board itself. It is an open-source software. In the electronics platform, arduinois easy to use hardware and software. The Arduino boards can read inputs so that they can understand and give as some of the outcomes like light on a sensor, a finger on a button, activating a motor, turning on an LED, publishing something manually in online etc,. that are all given as output to us. The most of the applications on everyday life, ardunio is a part of the application. The reason is that the Arduino follows the instruction correctly that fed by us. How can we send the instructions to the Arduino board? The instructions can be fed
+to the Arduino board by these tools, one is the Arduino programming language (based on Wiring), and the other one isArduino Software (IDE), based on Processing.
+
+## POTENTIOMETER
+The Potentiometer is an electric device that used to measure the Electro Motive Force of a given battery, the internal resistance of a cell. And also it is used to compare the EMFs of different cells. It can also use as a variable resistor in most of the applications.
 
 
-LM35, when connected to power supply senses the temperature of surroundings and sends equivalent voltage in accordance with per degree rise in temperature through its output pin. LM35 can sense any temp. between -50 degree to +150 degree Celsius and increases output by 10 millivolts with 1 degree rise in temperature. Thus maximum voltage it can give as output is 1.5 volts.
+## TRANSISTOR
+A transistor is a semiconductor device used to amplify or switch electronic signals and electrical power. It is composed of semiconductor material usually with at least three terminals for connection to an external circuit.
 
-### WHY ARDUINO FOR THIS DC FAN CONTROLLER PROJECT?
-Arduino is required to change the analog value received from output pin of LM35 to digital value and sends the corresponding digital output (PWM) to the base of mosfet.
-We will also use arduino commands to print temperature, corresponding analog value and digital output to mosfet on serial monitor of ARDUINO IDE.
+## RELAY
+It is a switch which controls (open and close) circuits electromechanically. The main operation of this device is to break contact with the help of a signal without any human involvement in order to switch it ON or OFF. It is mainly used to control a high powered circuit using a low power signal.
 
-### WHAT IS THE ROLE OF POWER MOSFET?
-This circuit will be of no use if it cannot run high current motor. Hence to run such motors power mosfet is used.
-The main principle of the MOSFET device is to be able to control the voltage and current flow between the source and drain terminals. It works almost like a switch.
-
-### WHY DIODE IS USED?
-Diode is used to protect the mosfet from the back E.M.F generated by motor while running.
-Motors do have a blowback voltage, a back-EMF that is usually addressed by adding a reverse-biased fast diode, sometimes in addition to a capacitor, across the motor’s supply wires. Without such protection, there is a high chance of this voltage destroying the individual GPIO line or more likely the entire on the Arduino.
 
 ## Applications
 * Temperature Controlled DC Fan can be used to control the temperature of devices, rooms, electronic components etc. by monitoring the temperature.
