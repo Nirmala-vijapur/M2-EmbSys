@@ -1,3 +1,7 @@
+# Temperature based Fan Speed Controller
+## Description 
+This project Temperature Based Fan Speed Control s can be done by using Arduino board with some electronics materials. The Arduino UNO board is very popular among all electronic circuits, thus we employed Arduino UNO board for the operation of the fan speed control. In the proposed system itself said that it is designed to detect the temperature of the room and send that information to the Arduino UNO board. Then the Arduino UNO board carries out the contrast of current temperature and set temperature based on the inbuilt program of the Arduino that feed through us. The output obtained from the operation is given through the o/p port of an Arduino UNO board to the LCD display that connected with the board. This generates the PWM pulses from the board which is further given to the driver circuit to get the expected output to the fan. 
+
 # Requirements 
 ## High Level Requirements
 |ID  |DESCRIPTION        |
