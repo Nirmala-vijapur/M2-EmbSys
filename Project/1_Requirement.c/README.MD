@@ -6,16 +6,20 @@ This project Temperature Based Fan Speed Control s can be done by using Arduino 
 ## High Level Requirements
 |ID  |DESCRIPTION        |
 |:---|:------------------|
-|HLR1|Fan ON             | 
-|HLR1|Fan OFF            |
-|HLR1|LED  ON            |
+|HLR1|It can sense the temperature        |
+|HLR2|It display the temperature on LCD   |
+|HLR3|It can control the fan              |
+|HLR4|It can measure the speed of the fan |
+|HLR5|It display the speed of fan on Lcd  |
 
 ## low Level Requirements 
-|ID  |DESCRIPTION                                            |
-|:---|:------------------------------------------------------|
-|LLR1|Fan is OFF when the temperature with in the limit      |
-|LLR1|Fan is ON when the temperature is higher then the limit|
-|LLR1|Buzzer or LED ON when the temperature is higher then the limit|
+|ID  |DESCRIPTION                                                   |
+|:---|:-------------------------------------------------------------|
+|LLR1|change the temperature in temperature sensor                  | 
+|LLR2|Fan is OFF when the temperature with in the limit             |
+|LLR3|Fan is ON when the temperature is higher then the limit       |
+|LLR4|LED ON when the temperature is higher then the limit          |
+|LLR5|we can see the varying tempature, and fan speed on LCD display|
 
 # SWOT 
 ### Strength 
