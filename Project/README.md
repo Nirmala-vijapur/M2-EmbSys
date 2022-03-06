@@ -52,6 +52,7 @@ The aim of this project is to design a temperature controlled fan using Arduino,
 # Architecture / Block Diagrams 
 # Structure Diagram 
 ## High Level 
+![Screenshot (163)](https://user-images.githubusercontent.com/98865009/156932653-2cf3c907-de3e-4c90-984e-348ab9b8ffb2.png)
 
 
 
