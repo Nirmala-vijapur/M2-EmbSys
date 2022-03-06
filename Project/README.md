@@ -60,7 +60,6 @@ The aim of this project is to design a temperature controlled fan using Arduino,
 ![Screenshot (114)](https://user-images.githubusercontent.com/98865009/155703826-b39094c9-c222-4778-accc-5769b3c528b6.png)
 
 # Behavior Diagram 
-## 
 ![Screenshot (112)](https://user-images.githubusercontent.com/98865009/155706056-6b56cf4f-401e-4e4c-8a96-388e0980cc1c.png)
 
 # Flow chat  
