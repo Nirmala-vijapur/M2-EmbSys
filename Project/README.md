@@ -75,7 +75,7 @@ The aim of this project is to design a temperature controlled fan using Arduino,
 *  DC Fan
 *  Relay
 *  LED 
-*  Transistor
+*  Mosfet
 *  100R resistor 
 *  4.7k Resistor 
 *  1k Resistor
@@ -99,10 +99,6 @@ to the Arduino board by these tools, one is the Arduino programming language (ba
 
 # POTENTIOMETER
 The Potentiometer is an electric device that used to measure the Electro Motive Force of a given battery, the internal resistance of a cell. And also it is used to compare the EMFs of different cells. It can also use as a variable resistor in most of the applications.
-
-
-# TRANSISTOR
-A transistor is a semiconductor device used to amplify or switch electronic signals and electrical power. It is composed of semiconductor material usually with at least three terminals for connection to an external circuit.
 
 # RELAY
 It is a switch which controls (open and close) circuits electromechanically. The main operation of this device is to break contact with the help of a signal without any human involvement in order to switch it ON or OFF. It is mainly used to control a high powered circuit using a low power signal.
