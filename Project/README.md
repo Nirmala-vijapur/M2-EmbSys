@@ -12,7 +12,7 @@ This project, Temperature Based Fan Speed Control, can be completed with the hel
 |HLR4|It can measure the speed of the fan |
 |HLR5|It display the speed of fan on Lcd  |
 
-# low Level Requirements 
+# Low Level Requirements 
 |ID  |DESCRIPTION                                                   |
 |:---|:-------------------------------------------------------------|
 |LLR1|change the temperature in temperature sensor                  | 
@@ -30,7 +30,7 @@ This project, Temperature Based Fan Speed Control, can be completed with the hel
 * It is simple to install in businesses, homes, and other places. 
 * It saves energy by slowing down in low temperature. 
 
-# weakness 
+# Weakness 
 
 * Since the Arduino is the circuit's heart, if the controller is damaged, the entire system will be interrupted.
 * Individual preferences have no effect on speed control.
