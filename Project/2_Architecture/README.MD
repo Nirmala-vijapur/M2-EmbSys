@@ -1,8 +1,7 @@
 # Architecture / Block Diagrams 
 # Structure Diagram 
 ## High Level 
-
-![Screenshot (118)](https://user-images.githubusercontent.com/98865009/155737638-a534fa1d-e870-4313-9951-3ba12638c45e.png)
+![Screenshot (163)](https://user-images.githubusercontent.com/98865009/156932221-46108c19-8178-423a-ab87-97b9577fcbd5.png)
 
 ## Low Level
 
