@@ -53,7 +53,7 @@ The aim of this project is to design a temperature controlled fan using Arduino,
 # Structure Diagram 
 ## High Level 
 
-![Screenshot (118)](https://user-images.githubusercontent.com/98865009/155737638-a534fa1d-e870-4313-9951-3ba12638c45e.png)
+
 
 ## Low Level
 
