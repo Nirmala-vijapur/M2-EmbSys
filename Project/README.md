@@ -51,19 +51,20 @@ The aim of this project is to design a temperature controlled fan using Arduino,
 # Architecture / Block Diagrams 
 # Structure Diagram 
 ## High Level 
-![Screenshot (163)](https://user-images.githubusercontent.com/98865009/156932653-2cf3c907-de3e-4c90-984e-348ab9b8ffb2.png)
 
-
+![Screenshot (197)](https://user-images.githubusercontent.com/98865009/157102585-a67a8787-d68e-413f-9413-7c9c507cf036.png)
 
 ## Low Level
 
-![Screenshot (114)](https://user-images.githubusercontent.com/98865009/155703826-b39094c9-c222-4778-accc-5769b3c528b6.png)
+![Screenshot (201)](https://user-images.githubusercontent.com/98865009/157102928-8a195d19-7aab-4709-b906-5ccf644701fe.png)
 
 # Behavior Diagram 
-![Screenshot (112)](https://user-images.githubusercontent.com/98865009/155706056-6b56cf4f-401e-4e4c-8a96-388e0980cc1c.png)
+
+![Screenshot (200)](https://user-images.githubusercontent.com/98865009/157102995-aefff24b-4e5a-4d68-8f9e-5284a5e2d374.png)
 
 # Flow chat  
-![Screenshot (165)](https://user-images.githubusercontent.com/98865009/156932579-962d9d8a-46ce-4ad1-9226-cb86b887b7ae.png)
+
+![Screenshot (198)](https://user-images.githubusercontent.com/98865009/157103237-e0600845-8a8c-40e9-aaef-f06aebad331e.png)
 
 
 # Components Required
