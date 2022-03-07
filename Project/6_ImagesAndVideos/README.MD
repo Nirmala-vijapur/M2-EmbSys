@@ -1,4 +1,7 @@
-# when temperature is below 30 degree calcius
+# When temperature is below 30 degree calcius
 ## Result: Fan Off, LED Off, DC Motor Off  
 ![Screenshot (174)](https://user-images.githubusercontent.com/98865009/157028973-7dbc175d-4d61-467d-aa64-9a86e86b022d.png)
 
+# When temperature is between 30 to 60 degree 
+## Result: Fan ON, LED OFF, DC Motor ON
+![Screenshot (177)](https://user-images.githubusercontent.com/98865009/157029885-9b7ea0f0-c07c-4ced-8c7e-f6e5e36fd7d4.png)
