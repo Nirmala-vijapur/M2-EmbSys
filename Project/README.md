@@ -1,76 +1,80 @@
 # Temperature based Fan Speed Controller
-## Description 
-This project Temperature Based Fan Speed Control s can be done by using Arduino board with some electronics materials. The Arduino UNO board is very popular among all electronic circuits, thus we employed Arduino UNO board for the operation of the fan speed control. In the proposed system itself said that it is designed to detect the temperature of the room and send that information to the Arduino UNO board. Then the Arduino UNO board carries out the contrast of current temperature and set temperature based on the inbuilt program of the Arduino that feed through us. The output obtained from the operation is given through the o/p port of an Arduino UNO board to the LCD display that connected with the board. This generates the PWM pulses from the board which is further given to the driver circuit to get the expected output to the fan. 
+# Abstract 
+This project, Temperature Based Fan Speed Control, can be completed with the help of an Arduino board and some electronic components. The Arduino UNO board is quite popular among all electronic circuits, so we used an Arduino UNO board to regulate the fan speed. The suggested system is designed to detect the temperature of the room and transfer that information to the Arduino UNO board, according to the proposal. The Arduino UNO board then compares the current temperature to the set temperature using the Arduino's built-in programme, which is fed through us. The operation's output is sent to an Arduino UNO board's o/p port, which is connected to an LCD display.
 
 # Requirements 
-## High Level Requirements
+# High Level Requirements
 |ID  |DESCRIPTION        |
 |:---|:------------------|
-|HLR1|Fan ON             | 
-|HLR1|Fan OFF            |
-|HLR1|LED  ON            |
+|HLR1|It can sense the temperature        |
+|HLR2|It display the temperature on LCD   |
+|HLR3|It can control the fan              |
+|HLR4|It can measure the speed of the fan |
+|HLR5|It display the speed of fan on Lcd  |
 
-## low Level Requirements 
-|ID  |DESCRIPTION                                            |
-|:---|:------------------------------------------------------|
-|LLR1|Fan is OFF when the temperature with in the limit      |
-|LLR1|Fan is ON when the temperature is higher then the limit|
-|LLR1|Buzzer or LED ON when the temperature is higher then the limit|
+# Low Level Requirements 
+|ID  |DESCRIPTION                                                   |
+|:---|:-------------------------------------------------------------|
+|LLR1|change the temperature in temperature sensor                  | 
+|LLR2|Fan is OFF when the temperature with in the limit             |
+|LLR3|Fan is ON when the temperature is higher then the limit       |
+|LLR4|LED ON when the temperature is higher then the limit          |
+|LLR5|we can see the varying tempature, and fan speed on LCD display|
+
 
 # SWOT 
-### Strength 
+# Strength 
 
-* it is very economical and easy to handel by the user
-* speed varies automatically, so that it controls the speed without using it manually 
-* it is help full to disabled people 
-* it is very easy to install in offices, houses etc
-* save energy by showing down its speed in low temperature 
+* Speed fluctuates automatically, thus it manages the speed without the user having to do it manually.
+* It is useful for disabled persons.
+* It is simple to install in businesses, homes, and other places. 
+* It saves energy by slowing down in low temperature. 
 
-### weakness 
+# Weakness 
 
-* Arduino is the heart of the circuit, if controller is damaged the whole system will be interrupted.
-* Speed control is independent of individual preference.
+* Since the Arduino is the circuit's heart, if the controller is damaged, the entire system will be interrupted.
+* Individual preferences have no effect on speed control.
 
 # 4w's & 1H
-## WHO
+# WHO
 Temperature based Fan Speed Controller can be used in both the home and Industry.
 
-## WHAT
+# WHAT
 Temperature based Fan Speed Controller It helps in saving the energy and electricity.
 
-## WHEN
+# WHEN
 Temperature based Fan Speed Controller Prevents waste of energy when it’s not hot enough for a fan to be needed. To assist people who are disabled to adjust the fan speed automatically.
 
-## HOW
+# HOW
 The aim of this project is to design a temperature controlled fan using Arduino, in which the fan is automatically turned ON or OFF according to the temperature
 
 # Architecture / Block Diagrams 
-## Structure Diagram 
-### High Level 
+# Structure Diagram 
+## High Level 
+![Screenshot (163)](https://user-images.githubusercontent.com/98865009/156932653-2cf3c907-de3e-4c90-984e-348ab9b8ffb2.png)
 
-![Screenshot (118)](https://user-images.githubusercontent.com/98865009/155737638-a534fa1d-e870-4313-9951-3ba12638c45e.png)
 
-### Low Level
+
+## Low Level
 
 ![Screenshot (114)](https://user-images.githubusercontent.com/98865009/155703826-b39094c9-c222-4778-accc-5769b3c528b6.png)
 
-## Behavior Diagram 
-### High Level 
+# Behavior Diagram 
 ![Screenshot (112)](https://user-images.githubusercontent.com/98865009/155706056-6b56cf4f-401e-4e4c-8a96-388e0980cc1c.png)
 
 # Flow chat  
+![Screenshot (165)](https://user-images.githubusercontent.com/98865009/156932579-962d9d8a-46ce-4ad1-9226-cb86b887b7ae.png)
 
-![Screenshot (110)](https://user-images.githubusercontent.com/98865009/155692430-6b594a41-1f56-4c49-a93a-4bb63ed3ce05.png)
 
 # Components Required
-## Hardware Requirements 
+# Hardware Requirements 
 * Arduino UNO
 * LM35 Temperature sensor 
 * Potentiometer 
 *  DC Fan
 *  Relay
 *  LED 
-*  Transistor
+*  Mosfet
 *  100R resistor 
 *  4.7k Resistor 
 *  1k Resistor
@@ -80,30 +84,26 @@ The aim of this project is to design a temperature controlled fan using Arduino,
 *  Battery 9v
 *  Battery clip 
 
-## software requirements
+# software requirements
 * Simulide
 * Arduino
 
 # Functions of the components used 
-## TEMPERATURE SENSOR LM35
-Temperature sensor senses the room temperature. This electronic device converts the data that sensed in the surrounding into the electronic data for recording purpose. There are many different types of temperature sensors.Here in this project we are using LM 35 temperature sensor. The LM35 temperature sensor is graded to work from -55° Centigrade to 150° Centigrade with a udeviating scale factor of +10mv/° C. It is a tiny and low cost IC which can be used to measure temperature anywhere in the surrounding between -55°C to 150°C.
+# TEMPERATURE SENSOR LM35
+The temperature of the room is detected by the temperature sensor. This electrical gadget turns data detected in the environment into electronic data for the purpose of recording. Temperature sensors come in a variety of shapes and sizes. The LM 35 temperature sensor is used in this project. With an udeviating scale factor of +10mv/° C, the LM35 temperature sensor can work in temperatures ranging from -55°C to 150°C. It's a small, low-cost IC that can measure temperature anywhere in the environment between -55°C and 150°C.
 
-## ARDUINO 
-Arduino UNO is a development board which contains microcontroller in the board itself. It is an open-source software. In the electronics platform, arduinois easy to use hardware and software. The Arduino boards can read inputs so that they can understand and give as some of the outcomes like light on a sensor, a finger on a button, activating a motor, turning on an LED, publishing something manually in online etc,. that are all given as output to us. The most of the applications on everyday life, ardunio is a part of the application. The reason is that the Arduino follows the instruction correctly that fed by us. How can we send the instructions to the Arduino board? The instructions can be fed
-to the Arduino board by these tools, one is the Arduino programming language (based on Wiring), and the other one isArduino Software (IDE), based on Processing.
-
-## POTENTIOMETER
-The Potentiometer is an electric device that used to measure the Electro Motive Force of a given battery, the internal resistance of a cell. And also it is used to compare the EMFs of different cells. It can also use as a variable resistor in most of the applications.
+# ARDUINO 
+The Arduino UNO is a development board that has a built-in microprocessor. It is a free and open-source programme. Arduino is a hardware and software platform for electronics that is simple to use. The Arduino boards can receive inputs and understand them, resulting in outputs such as light on a sensor, a finger on a button, activating a motor, turning on an LED, manually publishing anything online, and so on. Ardunio is a component of the majority of applications used in daily life. The reason for this is that the Arduino correctly interprets the instructions that we provide.What is the best way to send commands to the Arduino board? These tools can feed the instructions to the Arduino board: the Arduino programming language (based on Wiring) and the Arduino Software (IDE) (based on Processing).
 
 
-## TRANSISTOR
-A transistor is a semiconductor device used to amplify or switch electronic signals and electrical power. It is composed of semiconductor material usually with at least three terminals for connection to an external circuit.
+# POTENTIOMETER
+A potentiometer is an electric device that measures the Electro Motive Force of a battery, as well as the internal resistance of a cell. It's also used to compare the EMFs of various cells. In most applications, it can also be used as a variable resistor.
 
-## RELAY
-It is a switch which controls (open and close) circuits electromechanically. The main operation of this device is to break contact with the help of a signal without any human involvement in order to switch it ON or OFF. It is mainly used to control a high powered circuit using a low power signal.
+# RELAY
+It's an electromechanical switch that controls (opens and closes) circuits. The main function of this device is to break contact using a signal without the need for human intervention in order to turn it ON or OFF. Its primary function is to regulate a high-powered circuit with a low-power signal.
 
 
-## Applications
+# Applications
 * Temperature Controlled DC Fan can be used to control the temperature of devices, rooms, electronic components etc. by monitoring the temperature.
 * The circuit can be used in CPU to reduce the heat.
 

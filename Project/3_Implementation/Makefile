@@ -9,7 +9,7 @@ LDFLAGS =
 
 # Makefile settings - Can be customized.
 APPNAME = main.c
-APPNAME_HEX_PATH = D:\M2-EmbSys\Project\3_implementation\main.c\$(MAIN_APP).hex
+APPNAME_HEX_PATH = D:\M2-EmbSys\Project\3_implementation\src\$(MAIN_APP).hex
 EXT = .c
 SRCDIR = /D/M2-EmbSys/project/3_implementation/main.c
 OBJDIR = obj
