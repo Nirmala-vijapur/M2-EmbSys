@@ -110,5 +110,5 @@ It's an electromechanical switch that controls (opens and closes) circuits. The 
 # Code Analysis
 |Codiga Grade|codiga Marks|
 |:-----------|:-----------|
-![Codiga Badge](https://api.codiga.io/project/31637/status/svg)
+|![Codiga Badge](https://api.codiga.io/project/31637/status/svg)|![Codiga Badge](https://api.codiga.io/project/31637/score/svg)|
 
