@@ -4,4 +4,8 @@
 
 # When temperature is between 30 to 60 degree 
 ## Result: Fan ON, LED OFF, DC Motor ON
+
 ![Screenshot (177)](https://user-images.githubusercontent.com/98865009/157029885-9b7ea0f0-c07c-4ced-8c7e-f6e5e36fd7d4.png)
+
+# When temperature is above the 60 degree calcius
+![Screenshot (178)](https://user-images.githubusercontent.com/98865009/157030500-f52157b3-8d21-4809-947f-768ab35f946a.png)
