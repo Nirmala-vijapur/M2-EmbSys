@@ -108,7 +108,7 @@ It's an electromechanical switch that controls (opens and closes) circuits. The 
 * The circuit can be used in CPU to reduce the heat.
 
 # Code Analysis
-|Codiga Grade|codiga Marks|Codacy|
-|:-----------|:-----------|
-|![Codiga Badge](https://api.codiga.io/project/31637/status/svg)|![Codiga Badge](https://api.codiga.io/project/31637/score/svg)|![Codiga Badge]([![Codacy Badge](https://app.codacy.com/project/badge/Grade/7190cdb6b2a944b384f38804313288dd)](https://www.codacy.com/gh/Nirmala-vijapur/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Nirmala-vijapur/M2-EmbSys&amp;utm_campaign=Badge_Grade))|
+|Codiga Grad                                                    |codiga Marks                                                  |Codacy          |
+|:--------------------------------------------------------------|:-------------------------------------------------------------|:---------------|
+|![Codiga Badge](https://api.codiga.io/project/31637/status/svg)|![Codiga Badge](https://api.codiga.io/project/31637/score/svg)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7190cdb6b2a944b384f38804313288dd)](https://www.codacy.com/gh/Nirmala-vijapur/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Nirmala-vijapur/M2-EmbSys&amp;utm_campaign=Badge_Grade)                           |
 
