@@ -10,3 +10,5 @@
 # When temperature is above the 60 degree calcius
 # Result: Fan ON, LED ON, DC Motor ON
 ![Screenshot (178)](https://user-images.githubusercontent.com/98865009/157030500-f52157b3-8d21-4809-947f-768ab35f946a.png)
+
+![Screenshot (175)](https://user-images.githubusercontent.com/98865009/157032006-e9bebd37-3c8e-4cff-91b1-4a28187d65ce.png)
