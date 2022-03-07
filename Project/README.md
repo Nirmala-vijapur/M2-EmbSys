@@ -107,3 +107,6 @@ It's an electromechanical switch that controls (opens and closes) circuits. The 
 * Temperature Controlled DC Fan can be used to control the temperature of devices, rooms, electronic components etc. by monitoring the temperature.
 * The circuit can be used in CPU to reduce the heat.
 
+# Code Analysis
+
+
