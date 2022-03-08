@@ -30,15 +30,11 @@
   
 * Architecture / Block Diagrams
  
- i. Structure Diagram 
+  i. Structure Diagram 
   
-    High Level 
-    
-    Low Level
-    
   ii.Behavior Diagram 
   
- iii. Flow chat
+  iii. Flow chat
   
 * Components Required
 
