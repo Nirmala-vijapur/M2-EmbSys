@@ -12,7 +12,7 @@
 ## Result: LED ON, DC Motor ON
 ![Screenshot (208)](https://user-images.githubusercontent.com/98865009/157208867-0fca67ba-f3e5-4cfb-ac3f-3b400e0a0907.png)
 
-![Screenshot (175)](https://user-images.githubusercontent.com/98865009/157032006-e9bebd37-3c8e-4cff-91b1-4a28187d65ce.png)
+![Screenshot (207)](https://user-images.githubusercontent.com/98865009/157211386-cfbe23a3-d69e-42f6-be12-a8967b852f8b.png)
 
 # Output Video 
 https://user-images.githubusercontent.com/98865009/157042439-fd6e6755-2666-45af-b7fc-e126c66be107.mp4
