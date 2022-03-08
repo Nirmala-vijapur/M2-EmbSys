@@ -1,4 +1,53 @@
 # Report 
+
+# Table of Contents
+* Description
+ 
+  i. Abstract
+* Requirements
+
+  i. High Level Requirements
+  
+  ii. Low level Requirements
+  
+* SWOT ANALYSIS
+
+  i. Strenght
+  
+  ii. Weakness
+  
+* 4w's & 1H
+
+  i.Who
+  
+  ii.What
+  
+  iii.When
+  
+  iv.Where
+  
+  v.How
+  
+* Architecture / Block Diagrams
+ 
+ i. Structure Diagram 
+  
+    High Level 
+    
+    Low Level
+    
+  ii.Behavior Diagram 
+  
+ iii. Flow chat
+  
+* Components Required
+
+* Functions of the components used
+
+* TestPlanAndOutput
+
+*  Applications
+
 # Temperature based Fan Speed Controller
 # Abstract 
 This project, Temperature Based Fan Speed Control, can be completed with the help of an Arduino board and some electronic components. The Arduino UNO board is quite popular among all electronic circuits, so we used an Arduino UNO board to regulate the fan speed. The suggested system is designed to detect the temperature of the room and transfer that information to the Arduino UNO board, according to the proposal. The Arduino UNO board then compares the current temperature to the set temperature using the Arduino's built-in programme, which is fed through us. The operation's output is sent to an Arduino UNO board's o/p port, which is connected to an LCD display.
