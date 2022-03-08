@@ -6,7 +6,7 @@
 # When temperature is between 30 to 60 degree calcius 
 ## Result: LED OFF, DC Motor ON
 
-
+![Screenshot (209)](https://user-images.githubusercontent.com/98865009/157208705-b78398c6-3abb-445c-b550-960778e0e293.png)
 
 # When temperature is above 60 degree calcius
 ## Result: LED ON, DC Motor ON
