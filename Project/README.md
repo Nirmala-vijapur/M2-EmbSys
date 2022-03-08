@@ -21,6 +21,8 @@ This project, Temperature Based Fan Speed Control, can be completed with the hel
 # References
 [Reference-1](https://www.electronicshub.org/temperature-controlled-dc-fan-using-microcontroller/#:~:text=A%20Temperature%20Controlled%20DC%20Fan,order%20to%20protect%20the%20device)
 
+[Reference-2](https://www.homemade-circuits.com/automatic-temperature-regulator-circuit/)
+
 # Code Analysis
 |Codiga Grad                                                    |codiga Marks                                                  |Codacy          |
 |:--------------------------------------------------------------|:-------------------------------------------------------------|:---------------|
