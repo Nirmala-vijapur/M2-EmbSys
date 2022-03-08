@@ -19,14 +19,8 @@ This project, Temperature Based Fan Speed Control, can be completed with the hel
 |4_TestPlanandOutput|	Documents with test plans and status                                              |
 |5_Report           |	Documentation of all folders and videos of mini project                           |
 |6_ImagesandVideos  |	Documentation of screenshots of result and videos                                 |
-|7_Others           |	Documentation of references and data sheets                                       |
 
 
-
-# References
-[Reference-1](https://www.electronicshub.org/temperature-controlled-dc-fan-using-microcontroller/#:~:text=A%20Temperature%20Controlled%20DC%20Fan,order%20to%20protect%20the%20device)
-
-[Reference-2](https://www.homemade-circuits.com/automatic-temperature-regulator-circuit/)
 
 
 
@@ -43,3 +37,7 @@ This project, Temperature Based Fan Speed Control, can be completed with the hel
 https://user-images.githubusercontent.com/98865009/157298032-c196ce4b-70aa-445c-8e6a-85dde229d5a9.mp4
 
 
+# References
+[Reference-1](https://www.electronicshub.org/temperature-controlled-dc-fan-using-microcontroller/#:~:text=A%20Temperature%20Controlled%20DC%20Fan,order%20to%20protect%20the%20device)
+
+[Reference-2](https://www.homemade-circuits.com/automatic-temperature-regulator-circuit/)
