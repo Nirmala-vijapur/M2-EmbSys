@@ -6,6 +6,19 @@ This project, Temperature Based Fan Speed Control, can be completed with the hel
 * Temperature Controlled DC Fan can be used to control the temperature of devices, rooms, electronic components etc. by monitoring the temperature.
 * The circuit can be used in CPU to reduce the heat.
 
+# FOLDER STRUCTURE
+|FOLDER|	DESCRIPTION                                                                              |
+|:-----|:------------------------------------------------------------------------------------------|
+|1_Requirements|Abstract of project,High level and low level requirements,SWOT analysis and 4W'S&1H|
+|2_Architecture|Documentation of Behavioral and Structural Diagrams with respect HLR and LLR       |
+|3_Implementation|All codes and documentation of makefile,src etc                                  |
+|4_TestPlanandOutput|	Documents with test plans and status                                         |
+|5_Report|	Documentation of all folders and videos of mini project                                |
+|6_ImagesandVideos|	Documentation of screenshots of result and videos                              |
+|7_Others|	Documentation of references and data sheets                                            |
+
+# References
+
 # Code Analysis
 |Codiga Grad                                                    |codiga Marks                                                  |Codacy          |
 |:--------------------------------------------------------------|:-------------------------------------------------------------|:---------------|
