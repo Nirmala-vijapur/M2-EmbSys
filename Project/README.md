@@ -28,3 +28,9 @@ This project, Temperature Based Fan Speed Control, can be completed with the hel
 |:--------------------------------------------------------------|:-------------------------------------------------------------|:---------------|
 |![Codiga Badge](https://api.codiga.io/project/31637/status/svg)|![Codiga Badge](https://api.codiga.io/project/31637/score/svg)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7190cdb6b2a944b384f38804313288dd)](https://www.codacy.com/gh/Nirmala-vijapur/M2-EmbSys/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Nirmala-vijapur/M2-EmbSys&amp;utm_campaign=Badge_Grade)                           |
 
+Simulation Video
+
+
+https://user-images.githubusercontent.com/98865009/157298032-c196ce4b-70aa-445c-8e6a-85dde229d5a9.mp4
+
+
