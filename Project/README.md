@@ -5,8 +5,9 @@ This project, Temperature Based Fan Speed Control, can be completed with the hel
 
 
 # Applications
-* Normally we use the regulator to change the speed of the fan. Here the room temperature changes the speed varies so that according to the temperature the fan rotates.
-* The fan designed in this project, has the more scope to use in the Middle East countries. This product is more suitable for the hot regions.
+
+* Temperature based Fan speed controller can be used to control the temperature of devices, rooms, electronic components etc. by monitoring the temperature.
+* The circuit can be used in CPU to reduce the heat.
 
 
 
